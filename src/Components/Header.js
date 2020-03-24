@@ -77,7 +77,9 @@ const Example = (props) => {
                       </Link>
                     </DropdownItem>
                     <DropdownItem>
-                      Profile
+                      <Link to="/profile" style={{color: 'black'}}>
+                        Profile
+                      </Link>
                     </DropdownItem>
                     <Link to ='/'>
                       <DropdownItem onClick={logOut}>

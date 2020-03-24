@@ -14,6 +14,7 @@ import ProductDetail from './Pages/ProductDetail';
 import ManageProducts from './Pages/ManageProducts';
 import CartPage from './Pages/CartPage';
 import TransactionPage from './Pages/TransactionPage'
+import Profile from './Pages/Profile';
 // import Axios from 'axios';
 // import { API_URL } from './Support/API_URL';
 import { Login, keepLogin } from './Redux/Action';
@@ -63,6 +64,7 @@ class App extends Component{
             <Route path='/manage-product' component={ManageProducts} />
             <Route path='/cart' component={CartPage} ></Route>
             <Route path='/transactions' component={TransactionPage}></Route>
+            <Route path='/profile' component={Profile} />
           </Switch>
         <Footer/>
       </div>
